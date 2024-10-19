@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sitio Web Publicitario de Casas</title>
+  <link rel="stylesheet" href="vista.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Viviendas disponibles</h1>
+    
+    <!-- Carrusel de Imágenes -->
+    <div class="carousel">
+      <img id="carouselImage" src="casa1.jpeg" alt="Casa 1">
+      
+      <!-- Botones de cambio manual -->
+      <div class="carousel-buttons">
+        <button class="carousel-btn" onclick="changeImage(0)" onmouseover="hoverButton(this)" onmouseout="unhoverButton(this)">1</button>
+        <button class="carousel-btn" onclick="changeImage(1)" onmouseover="hoverButton(this)" onmouseout="unhoverButton(this)">2</button>
+        <button class="carousel-btn" onclick="changeImage(2)" onmouseover="hoverButton(this)" onmouseout="unhoverButton(this)">3</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="vista.js"></script>
+</body>
+</html>

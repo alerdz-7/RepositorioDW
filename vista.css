@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .carousel {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  .carousel img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .carousel-buttons {
+    margin-top: 10px;
+  }
+  
+  .carousel-btn {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .carousel-btn:hover {
+    background-color: #ff7f7f;
+  }
+  
